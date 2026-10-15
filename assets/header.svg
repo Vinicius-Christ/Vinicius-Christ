@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" role="img" aria-label="Vinícius Christ de Castro — Engenharia da Computação, dados e automação com IA">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0b1a"/>
+      <stop offset="0.55" stop-color="#1a1035"/>
+      <stop offset="1" stop-color="#0a2a33"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#c4b5fd"/>
+      <stop offset="0.5" stop-color="#8b5cf6"/>
+      <stop offset="1" stop-color="#22d3ee"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0" stop-color="#8b5cf6" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#8b5cf6" stop-opacity="0"/>
+    </radialGradient>
+    <clipPath id="r"><rect width="1000" height="230" rx="18"/></clipPath>
+    <style>
+      .name { font: 700 42px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; letter-spacing: .5px; }
+      .sub  { font: 500 20px 'Segoe UI', Ubuntu, 'Helvetica Neue', Arial, sans-serif; fill: #cbd5e1; opacity: 0; }
+      .s1 { animation: cycle 12s infinite 0s; }
+      .s2 { animation: cycle 12s infinite 4s; }
+      .s3 { animation: cycle 12s infinite 8s; }
+      @keyframes cycle { 0% { opacity: 0; transform: translateY(8px); } 4%, 29% { opacity: 1; transform: translateY(0); } 33%, 100% { opacity: 0; transform: translateY(-8px); } }
+      .orb { animation: pulse 4s ease-in-out infinite; transform-origin: 850px 115px; }
+      @keyframes pulse { 0%, 100% { transform: scale(1); opacity: .9; } 50% { transform: scale(1.08); opacity: 1; } }
+      .ring { animation: spin 18s linear infinite; transform-origin: 850px 115px; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      .dot { animation: blink 3s ease-in-out infinite; }
+      .d2 { animation-delay: 1s; } .d3 { animation-delay: 2s; }
+      @keyframes blink { 0%, 100% { opacity: .2; } 50% { opacity: 1; } }
+      .cursor { animation: caret 1s steps(1) infinite; }
+      @keyframes caret { 50% { opacity: 0; } }
+      @media (prefers-reduced-motion: reduce) { .s1, .orb, .ring, .dot, .cursor { animation: none; } .s1 { opacity: 1; } }
+    </style>
+  </defs>
+  <g clip-path="url(#r)">
+    <rect width="1000" height="230" fill="url(#bg)"/>
+    <g opacity=".18" stroke="#8b5cf6" stroke-width="1">
+      <path d="M0 60H1000M0 120H1000M0 180H1000"/>
+      <path d="M100 0V230M250 0V230M400 0V230M550 0V230M700 0V230"/>
+    </g>
+    <circle cx="850" cy="115" r="110" fill="url(#glow)"/>
+    <g class="ring" fill="none" stroke="#22d3ee" stroke-opacity=".55">
+      <circle cx="850" cy="115" r="78" stroke-dasharray="4 10"/>
+      <circle cx="850" cy="115" r="92" stroke-dasharray="40 18" stroke="#8b5cf6"/>
+    </g>
+    <g class="orb" fill="none" stroke="#c4b5fd" stroke-width="1.6">
+      <circle cx="850" cy="115" r="46" fill="#1e1b4b" fill-opacity=".6"/>
+      <path d="M850 69 L885 92 L885 138 L850 161 L815 138 L815 92 Z"/>
+      <path d="M850 69 L850 161 M815 92 L885 138 M885 92 L815 138" stroke-opacity=".7"/>
+      <path d="M850 92 L870 104 L870 126 L850 138 L830 126 L830 104 Z" stroke="#22d3ee"/>
+    </g>
+    <circle class="dot" cx="780" cy="50" r="2.5" fill="#22d3ee"/>
+    <circle class="dot d2" cx="930" cy="70" r="2" fill="#c4b5fd"/>
+    <circle class="dot d3" cx="915" cy="185" r="2.5" fill="#8b5cf6"/>
+    <text x="60" y="98" class="name" fill="url(#txt)">Vinícius Christ de Castro</text>
+    <text x="60" y="140" class="sub s1">Engenharia da Computação · UVV</text>
+    <text x="60" y="140" class="sub s2">Dados, BI e automações com IA (n8n · MCP)</text>
+    <text x="60" y="140" class="sub s3">TypeScript · Java · SQL · Arduino</text>
+    <text x="60" y="185" font-family="Consolas, 'Courier New', monospace" font-size="15" fill="#94a3b8">&gt; estagiário de tecnologia · Vitória/ES<tspan class="cursor" fill="#22d3ee"> ▍</tspan></text>
+  </g>
+</svg>
