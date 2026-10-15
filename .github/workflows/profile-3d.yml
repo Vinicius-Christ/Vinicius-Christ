@@ -21,6 +21,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
+      - name: Tirar a pizza de linguagens (ela só enxerga os repositórios públicos)
+        run: python3 scripts/sem-pizza.py
       - name: Salvar as imagens
         run: |
           git config user.name github-actions

@@ -104,7 +104,7 @@ Veja o repositório [CircuitosLogicos-Proj](https://github.com/Vinicius-Christ/C
 - **Oracle Academy**: Database Foundations e Fundamentos de Java
 - Participação em eventos de IA e dados na UVV (InovaWeek, InovaTalks, Databricks, IA para negócios)
 
-## 📈 Contribuições em 3D
+## 📈 Contribuições e linguagens
 
 
 <p align="center">
@@ -113,4 +113,8 @@ Veja o repositório [CircuitosLogicos-Proj](https://github.com/Vinicius-Christ/C
     <source media="(prefers-color-scheme: light)" srcset="./profile-3d-contrib/profile-green-animate.svg">
     <img alt="Contribuições em 3D" src="./profile-3d-contrib/profile-night-rainbow.svg" width="100%">
   </picture>
+</p>
+
+<p align="center">
+  <img src="./assets/linguagens.svg" alt="Linguagens nos meus projetos: TypeScript, JavaScript, C++, Python, Rust, CSS, Shell, HTML, PowerShell e Batch; no trabalho também Java, SQL e DAX (Power BI)" width="100%">
 </p>
