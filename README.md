@@ -3,6 +3,14 @@
 </p>
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vinicius-Christ/Vinicius-Christ/output/github-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vinicius-Christ/Vinicius-Christ/output/github-snake.svg">
+    <img alt="Cobrinha percorrendo o quadro de contribuições" src="https://raw.githubusercontent.com/Vinicius-Christ/Vinicius-Christ/output/github-snake-dark.svg" width="100%">
+  </picture>
+</p>
+
+<p align="center">
   <a href="https://www.linkedin.com/in/vinicius-christ-0958a7268/"><img src="https://img.shields.io/badge/LinkedIn-Vin%C3%ADcius%20Christ-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"></a>
   <a href="mailto:viniciuschristdecastro@gmail.com"><img src="https://img.shields.io/badge/E--mail-Fale%20comigo-8B5CF6?style=for-the-badge&logo=gmail&logoColor=white" alt="E-mail"></a>
   <img src="https://img.shields.io/badge/Vit%C3%B3ria%2FES-Brasil-22D3EE?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Vitória/ES">
@@ -96,15 +104,8 @@ Veja o repositório [CircuitosLogicos-Proj](https://github.com/Vinicius-Christ/C
 - **Oracle Academy**: Database Foundations e Fundamentos de Java
 - Participação em eventos de IA e dados na UVV (InovaWeek, InovaTalks, Databricks, IA para negócios)
 
-## 📈 Atividade no GitHub
+## 📈 Contribuições em 3D
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Vinicius-Christ/Vinicius-Christ/output/github-snake-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Vinicius-Christ/Vinicius-Christ/output/github-snake.svg">
-    <img alt="Cobrinha percorrendo o quadro de contribuições" src="https://raw.githubusercontent.com/Vinicius-Christ/Vinicius-Christ/output/github-snake-dark.svg" width="100%">
-  </picture>
-</p>
 
 <p align="center">
   <picture>
