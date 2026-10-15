@@ -43,7 +43,7 @@ def svg(dados):
         w = barra_w * pct / 100
         partes.append(
             f'<rect x="{x:.2f}" y="78" width="{w:.2f}" height="14" fill="{cor}">'
-            f'<animate attributeName="width" from="0" to="{w:.2f}" dur="1.2s" begin="{i * 0.08:.2f}s" fill="freeze"/></rect>'
+            f'<animate attributeName="width" values="0;0;{w:.2f}" keyTimes="0;{i * 0.08 / (1.2 + i * 0.08):.3f};1" dur="{1.2 + i * 0.08:.2f}s" fill="freeze"/></rect>'
         )
         x += w
 
@@ -61,7 +61,7 @@ def svg(dados):
             f'<text x="{cx + 22}" y="{cy + 5}" class="nome">{nome}</text>'
             f'<rect x="{cx + 150}" y="{cy - 5}" width="215" height="10" rx="5" fill="#ffffff" fill-opacity=".06"/>'
             f'<rect x="{cx + 150}" y="{cy - 5}" width="{w:.1f}" height="10" rx="5" fill="{cor}">'
-            f'<animate attributeName="width" from="0" to="{w:.1f}" dur="1.4s" begin="{0.3 + i * 0.07:.2f}s" fill="freeze"/></rect>'
+            f'<animate attributeName="width" values="0;0;{w:.1f}" keyTimes="0;{(0.3 + i * 0.07) / (1.7 + i * 0.07):.3f};1" dur="{1.7 + i * 0.07:.2f}s" fill="freeze"/></rect>'
             f'<text x="{cx + col_w}" y="{cy + 5}" class="pct" text-anchor="end">{txt.replace(".", ",")}</text></g>'
         )
 
@@ -88,9 +88,9 @@ def svg(dados):
       .pct {{ font-size: 14px; fill: #cbd5e1; font-variant-numeric: tabular-nums; }}
       .chip {{ font-size: 13px; font-weight: 600; }}
       .rot {{ font-size: 13px; fill: #94a3b8; }}
-      .lin {{ opacity: 0; animation: surge .6s ease-out forwards; }}
+      .lin {{ animation: surge .6s ease-out backwards; }}
       @keyframes surge {{ from {{ opacity: 0; transform: translateY(6px); }} to {{ opacity: 1; transform: none; }} }}
-      @media (prefers-reduced-motion: reduce) {{ .lin {{ animation: none; opacity: 1; }} }}
+      @media (prefers-reduced-motion: reduce) {{ .lin {{ animation: none; }} }}
     </style>
   </defs>
   <rect width="{largura}" height="{altura}" rx="16" fill="url(#bg)"/>
